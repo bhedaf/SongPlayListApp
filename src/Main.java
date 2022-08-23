@@ -19,10 +19,10 @@ public class Main {
         albums.add(album);
 
         LinkedList<Song> playList_1 = new LinkedList<>();
-        albums.get(0).addTOPlayList("Still", playList_1);
-        albums.get(0).addTOPlayList("Everywhere", playList_1);
-        albums.get(1).addTOPlayList("Steal my Girl", playList_1);
-        albums.get(1).addTOPlayList("Night Changes", playList_1);
+        albums.get(0).addTOPlayList("Drag me down", playList_1);
+        albums.get(0).addTOPlayList("Night Changes", playList_1);
+        albums.get(1).addTOPlayList("Still", playList_1);
+        albums.get(1).addTOPlayList("Everywhere", playList_1);
 
         play(playList_1);
 
